@@ -1,0 +1,26 @@
+git control de versiones..de archivos de texto!! distintos estados de un proyecto
+
+produccion es el sitio que esta en uso! ej mercado libre, facebook
+
+leí que git compro a npm, que vendría siendo npm?
+
+1) PRIMER PASO
+HACER git init EN LA CARPETA DONDE QUIERO CREAR EL REPOSITORIO
+
+2)sEGUNDO PASO CREAMOS EL REPOSITORIO REMOTO NUEVO EN GIT HUB
+
+3) UNO REPOSITORIO LOCAL CON REMOTO 
+git remote add origin https://github.com/martinchoaguilera/clase_git.git
+
+4) git status NOS INDICA COMO ESTA EL REPOSITORIO LOCAL
+
+5) git add PARA AGREGAR LOS ARCHIVOS AL REPO .. NO USAR git add .
+
+6) git commit -m " mensaje para contar lo que subí " COMITEAMOS ( ES COMO SACAR 
+UNA FOTO A LOS ARCHIVOS QUE VAS A SUBIR )
+
+7) git  log PARA VER SI COMITIE BIEN
+
+8) git push origin master PARA SUBIRLO AL REPO REMOTO
+
+--SIEMPRE VERIFICAR EL ESTADO DEL REPO LOCAL CON git status
